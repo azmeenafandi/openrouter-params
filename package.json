@@ -1,0 +1,13 @@
+{
+  "name": "@azmeenafandi/openrouter-params",
+  "version": "1.0.0",
+  "description": "Override OpenRouter temperature, top_p, and top_k via CLI flags, commands, and environment variables",
+  "keywords": ["pi-package", "openrouter", "llm-params"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./src/openrouter-params.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
